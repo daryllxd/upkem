@@ -2,11 +2,11 @@
 
 @import "imports";
 
+@import "partials/navbar";
+@import "partials/tron";
+
 body {
 	@include background( url('../images/brillant.png') );
 }
 
-h1{
-	color: white;
-}
 

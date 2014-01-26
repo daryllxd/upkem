@@ -2,9 +2,16 @@
 title: UP KEM
 ---
 
-%video#landing-video{width: "100%", autoplay: "", loop: "", muted: ""}
-  %source{:src => "assets/images/short.mp4", :type => "video/mp4"}
-  .container
-    .content
-      %h1 UP KEM: Life in Color
-    = image_tag "logoness.png", class: "img-circle img-profile"
+.tron
+  .video-holder
+    %video#landing-video{width: "100%", autoplay: "", loop: "", muted: ""}
+      %source{:src => "assets/images/short.mp4", :type => "video/mp4"}
+  .video-overlay
+    .container
+      .tron-heading
+        %h1 UP KEM: Life in Color
+        .thing dqdqdq
+
+
+%h1{style: "clear: both"} Hello
+= image_tag "logoness.png", class: "img-circle img-profile"
