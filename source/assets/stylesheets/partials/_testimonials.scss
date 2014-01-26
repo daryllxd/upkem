@@ -1,0 +1,18 @@
+.testimonials{
+	@include background-image( url('../images/light_wool.png') );
+	@include background-image(linear-gradient( rgba(0, 255, 100, 0.3), rgba(0, 255, 100, 0.3) ));
+	border-bottom: 10px solid white;
+	padding: 20px;
+}
+
+.testimonial-image{
+	border: 5px solid white;
+	@include size( 150px, 150px );
+}
+
+.testimonial{
+	padding-top: 0.5em;
+	padding-left: 1em;
+	font: 24px $font-family-serif;
+	color: $KEM-blue;
+}

@@ -22,7 +22,7 @@
 	float: left;
 	margin: 5px;
 	:hover{
-		
+		@include transition (opacity 1.0s ease-in 0s, width 2.0s ease-in 2s);
 	}
 }
 
