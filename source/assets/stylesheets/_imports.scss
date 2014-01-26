@@ -4,5 +4,10 @@
 */
 
 @import "normalize-scss/normalize";
+@import "bourbon";
 
-// @import "compass";
+@import "bootstrap/bootstrap-variables";
+@import "bootstrap/bootstrap-navbar";
+@import "bootstrap";
+
+@import "partials/navbar";

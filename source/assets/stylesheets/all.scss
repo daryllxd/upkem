@@ -1,16 +1,12 @@
 @charset "utf-8";
 
-@import "settings";
 @import "imports";
-
-
-@import "bootstrap/bootstrap-variables";
-
-@import "bootstrap";
-
-@import "partials/navbar";
 
 body {
   background-image: url('../images/brillant.png');
-  color: $textColor;
 }
+
+h1{
+	color: white;
+}
+

@@ -1,21 +1,13 @@
-%nav.navbar.navbar-default.navbar-inverse{:role => "navigation"}
-  / Brand and toggle get grouped for better mobile display
-  .navbar-header
-    %button.navbar-toggle{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
-      %span.sr-only Toggle navigation
-      %span.icon-bar
-      %span.icon-bar
-      %span.icon-bar
-    %a.navbar-brand{:href => "#"} UP KEM
-  / Collect the nav links, forms, and other content for toggling
-  #bs-example-navbar-collapse-1.collapse.navbar-collapse
-    %ul.nav.navbar-nav
-      %li
-        %a{:href => "#"} About Us
-      %li
-        %a{:href => "#"} Second Thing
-      %li
-        %a{:href => "#"} Second Thing
-      %li
-        %a{:href => "#"} Apply
-  / /.navbar-collapse
+%nav.navbar.navbar-default{:role => "navigation"}
+  .container
+    %nav.nav-container
+      %ul.nav.navbar-nav.nav-left
+        %li
+          %a{:href => "#"} About Us
+        %li
+          %a{:href => "#"} About Us
+      %ul.nav.navbar-nav.nav-right
+        %li
+          %a{:href => "#"} Right 
+        %li
+          %a{:href => "#"} Apply
