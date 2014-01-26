@@ -4,22 +4,8 @@
 
 @import "partials/navbar";
 @import "partials/tron";
+@import "partials/events";
 
 body {
 	@include background( url('../images/brillant.png') );
-}
-
-
-.events{
-	@include background-image( url('../images/light_wool.png') );
-	@include background-image(linear-gradient( rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3) ));
-}
-
-.event-name{
-	@extend .text-center;
-}
-
-.img-center{
-	display: block;
-	margin: 0 auto;
 }

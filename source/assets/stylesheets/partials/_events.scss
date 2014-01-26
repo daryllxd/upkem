@@ -1,0 +1,27 @@
+.events{
+	@include background-image( url('../images/light_wool.png') );
+	@include background-image(linear-gradient( rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3) ));
+}
+
+
+.event{
+	background-color: yellow;
+	padding: 20px;
+}
+
+.event-name{
+	@extend .text-center;
+}
+
+.event-description{
+	display: inline;
+}
+
+.padder{
+	display: inline;
+}
+
+.img-center{
+	display: inline;
+	margin: 0 auto;
+}

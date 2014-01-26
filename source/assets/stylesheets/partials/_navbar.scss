@@ -1,4 +1,4 @@
-$nav-buffer: 750px;
+$nav-buffer: 720px;
 
 .navbar{
 	background-color: $KEM-blue;
@@ -22,13 +22,12 @@ $nav-buffer: 750px;
 }
 
 .nav-logo{
-	@include background( url('../images/logo_kem.jpg') no-repeat );
+	@include background( url('../images/logo_grey.jpg') no-repeat );
 	background-position: center center;
 	@include background-size( cover );
 	@include position( absolute, 0 0 0 50% );
-	height: 120px;
-	margin: 0 0 0 -50px;
-	width: 107px;
+	@include size( 54px, 60px );
+	margin: 5px 0 0 -27px;
 	z-index: 150;
 }
 
