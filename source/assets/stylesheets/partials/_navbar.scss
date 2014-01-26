@@ -1,3 +1,5 @@
+$nav-buffer: 720px;
+
 .navbar{
 	background-color: $KEM-blue;
 	color: white;
@@ -5,21 +7,32 @@
 
 }
 
-#upkem-nav{
-	display: block;
-	float: none;
-	margin: 0 15%;
-
+.nav-container{
+	margin: 0 auto;
+	ul{
+		@include position(absolute);
+	}
 }
 
+
 .nav-left{
-	float: left;
-	
-	right: 50%;
+	right: $nav-buffer;
+	text-align: right;
+}
+
+.nav-logo{
+	@include background( url('../images/logo_grey.jpg') no-repeat );
+	@include background-size( cover );
+	@include position( absolute, 0 0 0 50% );
+	margin: 0 0 0 -25px;
+
+	height: 50px;
+	width: 50px;
 }
 
 .nav-right{
-	float: right;
+	left: $nav-buffer;
+	text-align: left;
 }
 
 

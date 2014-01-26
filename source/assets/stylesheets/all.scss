@@ -3,7 +3,7 @@
 @import "imports";
 
 body {
-  background-image: url('../images/brillant.png');
+	@include background( url('../images/brillant.png') );
 }
 
 h1{
