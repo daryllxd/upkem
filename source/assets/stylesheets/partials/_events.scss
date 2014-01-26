@@ -3,10 +3,9 @@
 	@include background-image(linear-gradient( rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3) ));
 }
 
-
 .event{
 	background-color: yellow;
-	padding: 20px;
+	padding: 10px;
 }
 
 .event-name{
@@ -25,3 +24,12 @@
 	display: inline;
 	margin: 0 auto;
 }
+
+    // / = image_tag "logoness.png", class: "img-circle", style: "text-align: center;"
+
+    //  /    = data.events[0].name
+    //  / - tabs.each do |tab|
+    //  /    %li
+    //  /      %a{:href => "##{tab[:name].downcase}"}
+    //  /        %i.fa.fa-3x.fa-fw.block.center{:class => "#{tab[:icon]}"}
+    //  /        = tab[:name]
