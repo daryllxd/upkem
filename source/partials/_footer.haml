@@ -1,2 +1,8 @@
-%footer
-  ="Its the Footer!"
+%footer.navbar.navbar-default
+  %ul.nav.navbar-nav.pull-right
+    %li= link_to "UP KEM", "#"
+    %li= link_to "Facebook", data.social_links.facebook
+    %li= link_to "Twitter", data.social_links.twitter
+    %li= link_to "Youtube", data.social_links.youtube
+    %li= link_to "Tumblr", data.social_links.tumblr
+    %li= link_to "Phone Number: #{data.social_links.phone}", "#"
