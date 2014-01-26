@@ -27,8 +27,6 @@ h1{
 	text-align: center;
 }
 
-
-
 .thing{
 	@include button( shiny, $KEM-blue );
 	margin: 20px;

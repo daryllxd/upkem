@@ -38,6 +38,7 @@ activate :livereload
 # Site Settings
 @analytics_account = false
 @typekit_account = false
+@google_maps_key = "AIzaSyBwYkM6UdMQiFG5JxL8XIHcaR_RBHpRHDQ"
 
 # Asset Settings
 set :css_dir, 'assets/stylesheets'
