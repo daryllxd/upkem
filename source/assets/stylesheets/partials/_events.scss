@@ -1,6 +1,7 @@
 .events{
 	@include background-image( url('../images/light_wool.png') );
 	@include background-image(linear-gradient( rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3) ));
+	padding: 20px;
 }
 
 .event{
@@ -14,22 +15,20 @@
 
 .event-description{
 	display: inline;
+	width: 65%;
 }
 
-.padder{
-	display: inline;
+.event-photo{
+	float: left;
+	margin: 5px;
+	:hover{
+		
+	}
 }
 
 .img-center{
 	display: inline;
 	margin: 0 auto;
+	@include size( 100px, 100px );
+
 }
-
-    // / = image_tag "logoness.png", class: "img-circle", style: "text-align: center;"
-
-    //  /    = data.events[0].name
-    //  / - tabs.each do |tab|
-    //  /    %li
-    //  /      %a{:href => "##{tab[:name].downcase}"}
-    //  /        %i.fa.fa-3x.fa-fw.block.center{:class => "#{tab[:icon]}"}
-    //  /        = tab[:name]
